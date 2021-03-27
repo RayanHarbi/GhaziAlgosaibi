@@ -1,0 +1,157 @@
+body {
+    direction: rtl;
+    background-color: rgba(181, 178, 168, 0.502);
+    padding-bottom: 0px;
+}
+
+.container-fluid {
+    background-color: rgba(181, 178, 168, 0.6);
+    width: 100%;
+    padding-right: 10px;
+    opacity: 0.9;
+}
+
+.navbar-toggler {
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.nav-item {
+    padding-left: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 14px;
+    padding-bottom: 3px;
+}
+
+/* ==== slider ==== */
+.carousel {
+    position: relative;
+    top: 26px;
+    opacity: 0.82;
+}
+.carousel-item {
+    height: 90vh;
+    width: 100%;
+    min-height: 50%;
+    min-width: 1024px;
+    background-size:cover;
+}
+
+/*=== text in slider ===*/
+.carousel-caption {
+    bottom: 5px;    
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: right;
+    padding-left: 36%;
+    font-family: 'Tajawal', sans-serif;
+    animation: fadeInRight 0.5s ease forwards;
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 7px;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    display:inline;
+}
+/*=== Footer content ===*/
+.p-3 {
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0px 0px 0px 0px;
+}
+
+.mb-4 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+.fab {
+    color: rgb(255, 255, 255); 
+}
+
+/* === page 1 style === */
+
+.container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5% 10% 5% 10%;
+    background-color: rgba(181, 178, 168, 0.502);
+}
+
+.h2 {
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;   
+}
+
+.h3 {
+    text-align: right;
+    font-family: 'Tajawal', sans-serif; 
+    padding-top: 50px;
+}
+
+.lead {
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    word-wrap: break-word;
+}
+
+.list-unstyled {
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 350;
+    word-wrap: break-word;
+}
+/* --- page 2 --- */
+.container-sm {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.col-md-3 {
+    padding-top: 10px;
+}
+
+/* --- page 3 --- */
+.continer-lg {
+    background-color: rgba(227, 230, 233, 0.2);
+    padding: 20px 20px 20px 20px;
+}
+img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery img{
+	background-color: rgba(237, 240, 243, 0.2);
+	padding: 5px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: zoom-in;
+}
+.modal{
+	width: 100%;
+}
